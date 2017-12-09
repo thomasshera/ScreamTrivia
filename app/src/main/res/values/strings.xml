@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Scream Trivia</string>
+    <!--
+    NOTE! In here I will define titles and whatnot for easy changing on the fly.
+    -->
+    <string name="question">Default Question</string>
+    <string name="choice0Marker">A</string>
+    <string name="choice0Body">Choice 0 Default Body</string>
+    <string name="choice1Marker">B</string>
+    <string name="choice1Body">Choice 1 Default Body</string>
+    <string name="choice2Marker">C</string>
+    <string name="choice2Body">Choice 2 Default Body</string>
+    <string name="choice3Marker">D</string>
+    <string name="choice3Body">Choice 3 Default Body</string>
+    <string name="infoMarker">InfoMarker</string>
+    <string name="infoBody">Info Default Body</string>
+    <string name="nextBody">Next</string>
+    <string name="choice0MarkerDescribe">A</string>
+    <string name="choice1MarkerDescribe">B</string>
+    <string name="choice2MarkerDescribe">C</string>
+    <string name="choice3MarkerDescribe">D</string>
+</resources>

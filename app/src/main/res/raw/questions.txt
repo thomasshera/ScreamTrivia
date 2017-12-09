@@ -1,0 +1,39 @@
+QUESTION1
+What was the original name for Scream?
+
+Scary Movie
+
+Kevin Williamson had developed the script under the name "Scary Movie," but it didn't sit with The Weinstein Company. Randomly, it was listening to Michael Jackson's 1995 song "Scream" that prompted the Weinstein brothers to change the name to Scream, and the rest was history.
+
+QUESTION2
+Which classic slasher film does Scream share one character's surname with?
+
+Halloween
+
+As well as Loomis being the name of the boyfriend in Psycho (Billy was Sidney's boyfriend), the surname is also shared by Donald Pleasence's Dr. Samuel Loomis in John Carpenter's Halloween.
+
+QUESTION3
+A line in the beginning of Scream also appears in this movie.
+
+Halloween
+
+When Drew Barrymore's Casey is found gutted, her father tells his wife to run to the Mackenzie's house down the road -- a mirror of what Jamie Lee Curtis tells the kids at the end of Halloween.
+
+This could be done ad infinitum but it's kind of complex. An easier method would be to create a bunch of JSON objects
+And populate them with question, available answer choices, the correct answer, and the explanation.
+
+Note that the easiest way to do this is by creating a big file in Excel containing the columns:
+
+Question
+CorrectAnswer
+WrongAnswer0
+WrongAnswer1
+WrongAnswer2
+ExtraInfo
+
+And then exporting it as CSV and then maybe converting it to JSON per these instructions:
+
+https://stackoverflow.com/questions/19187085/how-can-i-quickly-and-easily-convert-spreadsheet-data-to-json
+
+The Answer class will randomize the order CorrectAnswer, WrongAnswer0, WrongAnswer1, and WrongAnswer2 appear in the UI.
+It will also tell us whether the correct button was pressed which will influence what appears in ResultActivity.

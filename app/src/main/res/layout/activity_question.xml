@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_gravity="center"
+            android:id="@+id/questionFragment"
+            android:name="tshera.screamtrivia.QuestionFragment"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_question" />
+
+        <fragment
+            android:layout_gravity="center"
+            android:id="@+id/answerChoicesFragment"
+            android:name="tshera.screamtrivia.AnswerChoicesFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_answer_choices" />
+
+        <fragment
+            android:id="@+id/informationFragment"
+            android:name="tshera.screamtrivia.InformationFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:layout="@layout/fragment_information" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
